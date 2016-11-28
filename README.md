@@ -20,6 +20,7 @@ is an optical character recognition (OCR) tool for python.That is, it will recog
  3. Replace the punctuations.
  4. Replay KeyPresses.
 
+[](http://anthonys.io/content/images/2016/11/canvas1.png)
 
 #The Breakdown!
 ```language-python
@@ -43,6 +44,8 @@ im.save('sc.png')
 ```
 To speed up time, I had the screenshot automatically crop the text area in NitroTire website. Those numbers are based off my dual
 widescreen monitor setup so you'll need to change the numbers based on your setup. You can use: #im.show() to get a faster idea.
+
+[](http://anthonys.io/content/images/2016/11/sc.png)
 
 ```language-python
 bashCommand = "tesseract sc.png output"
