@@ -69,12 +69,11 @@ A workaround for this was to replace the period with both period and comma, same
 ```language-python
   time.sleep(1)
 text = open('output1.txt', 'r').read().strip().replace('\n',' ')
-for ch in text:#type out the text
+for ch in text:
 subprocess.call(["xdotool", "type", ch])
   time.sleep(.001)
 ```
-The last bits,  here is the same code I used to emulate a keypress from the keybr project. The difference here is were going to be
-replacing each new line (\n) with a space ' '. The last sleep command is to type how fast, were at about 250wpms with .001
+The last bits,  here is the same code I used to emulate a keypress from the keybr project. The difference here is were going to be replacing each new line (\n) with a space ' '. The last sleep command is to type how fast, were at about 250wpms with .001
 
 
 
